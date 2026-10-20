@@ -33,5 +33,5 @@ build/
 .vscode/
 
 
-README.md
-CLAUDE.md
+# Notes locales (jamais versionnees) ; README.md et CLAUDE.md sont versionnes (platform-handbook/CONTRIBUER.md)
+CLAUDE.local.md
