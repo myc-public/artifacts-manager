@@ -6,7 +6,7 @@
   artifacts. No developer machine and no Jenkins pipeline should ever
   resolve from, or deploy to, Maven Central / an external Artifactory
   directly - everything goes through Nexus, which itself proxies Central
-  (see craft-platform/CLAUDE.md).
+  (see CLAUDE.md at the root of this repository).
 
   How this is enforced: the wildcard <mirror> below intercepts every
   repository/pluginRepository lookup (including the implicit "central" one
